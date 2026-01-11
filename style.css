@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* ヘッダー全体を左右に分ける */
+header {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* 左側（タイトル＋説明） */
+.header-left h1 {
+    margin: 0;
+    cursor: pointer;
+}
+
+.site-description {
+    margin: 5px 0 0;
+    font-size: 0.9em;
+}
+
+/* 右側（ボタン） */
+.header-right {
+    display: flex;
+    gap: 10px;
+}
+
+.header-button {
+    background-color: #555;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.header-button:hover {
+    background-color: #777;
+}
+
+/* ページ共通 */
+.page-container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* 既存のスタイル（省略せずそのまま使用） */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.main-content {
+    flex: 3;
+    padding-right: 20px;
+}
+
+.sidebar {
+    flex: 1;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.blog-post {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.post-title-clickable {
+    cursor: pointer;
+    color: #007BFF;
+    text-decoration: underline;
+}
+
+.post-content {
+    display: none;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+.post-image {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.submit-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #0056b3;
+}

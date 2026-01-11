@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルなワンページブログ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<div class="header-left">
+<h1 id="site-title">田中すまい工事店</h1>
+<p class="site-description">住まいの修繕の現場から、日々の仕事と経験を綴ります</p>
+</div>
+<div class="header-right"><a href="about.html" class="header-button">サイトについて</a> <a href="contact.html" class="header-button">お問合せ</a></div>
+</header>
+<div class="container"><main class="main-content"><!-- ブログ記事一覧（元のまま） -->
+<article class="blog-post" data-date="2025-11-01" data-keywords="HTML, CSS, JavaScript">
+<h2 class="post-title-clickable">記事タイトル1: HTMLとCSSの基本</h2>
+<p class="post-meta">日付: 2025-11-01 | キーワード: HTML, CSS, JavaScript</p>
+<div class="post-content">
+<p>これは最初の記事の本文です。初期表示時には隠されています。</p>
+</div>
+</article>
+<article class="blog-post" data-date="2025-10-15" data-keywords="JavaScript, フロントエンド">
+<h2 class="post-title-clickable">記事タイトル2: JavaScriptの動的な機能</h2>
+<p class="post-meta">日付: 2025-10-15 | キーワード: JavaScript, フロントエンド</p>
+<div class="post-content">
+<p>JavaScriptを使って、ウェブページに動きを追加する方法について解説します。</p>
+</div>
+</article>
+<article class="blog-post" data-date="2025-09-20" data-keywords="デザイン, CSS">
+<h2 class="post-title-clickable">記事タイトル3: レスポンシブデザインのコツ</h2>
+<p class="post-meta">日付: 2025-09-20 | キーワード: デザイン, CSS</p>
+<div class="post-content">
+<p>レスポンシブデザインの重要なポイントを紹介します。</p>
+</div>
+</article>
+<article class="blog-post" data-date="2025-08-01" data-keywords="旅行, 写真, 風景">
+<h2 class="post-title-clickable">記事タイトル4: 最近の旅行写真</h2>
+<p class="post-meta">日付: 2025-08-01 | キーワード: 旅行, 写真, 風景</p>
+<div class="post-content"><img src="sample_image.jpg" alt="美しい風景の写真" class="post-image" />
+<p>先日訪れた場所で撮影した写真です。</p>
+</div>
+</article>
+</main>
+<aside class="sidebar">
+<div class="archive-box">
+<h3>日付アーカイブ</h3>
+<ul id="date-archive-list"></ul>
+<h3>キーワード</h3>
+<ul id="keyword-archive-list"></ul>
+</div>
+</aside>
+</div>
+<p>
+<script src="script.js"></script>
+</p>
+</body>
+</html>

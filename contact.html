@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お問合せ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="header-left">
+        <h1><a href="index.html" class="header-home-link">シンプルなブログ</a></h1>
+        <p class="site-description">住まいの修繕の現場から、日々の仕事と経験を綴ります</p>
+    </div>
+
+    <div class="header-right">
+        <a href="about.html" class="header-button">サイトについて</a>
+        <a href="contact.html" class="header-button">お問合せ</a>
+    </div>
+</header>
+
+<div class="page-container">
+    <h2>お問合せ</h2>
+
+    <form action="https://formspree.io/f/mwvvezwn" method="POST">
+        <label>お名前：</label><br>
+        <input type="text" name="name" required><br><br>
+
+        <label>メールアドレス：</label><br>
+        <input type="email" name="email" required><br><br>
+
+        <label>お問い合わせ内容：</label><br>
+        <textarea name="message" rows="6" required></textarea><br><br>
+
+        <button type="submit" class="submit-button">送信する</button>
+    </form>
+</div>
+
+</body>
+</html>
