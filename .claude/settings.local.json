@@ -14,7 +14,8 @@
       "Bash(powershell -Command \"Remove-Item -LiteralPath ''\\\\?\\\\C:\\\\Users\\\\yasu\\\\workspace\\\\yasuo-fc2blog\\\\nul'' -Force\")",
       "Bash(python -c \"import os; os.remove\\(r''\\\\\\\\?\\\\C:\\\\Users\\\\yasu\\\\workspace\\\\yasuo-fc2blog\\\\nul''\\)\")",
       "Bash(python:*)",
-      "Bash(ls:*)"
+      "Bash(ls:*)",
+      "Bash(git commit:*)"
     ]
   }
 }
