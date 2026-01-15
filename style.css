@@ -85,7 +85,7 @@ header {
 
 .post-title-clickable {
     cursor: pointer;
-    color: #007BFF;
+    color: #333;
     text-decoration: underline;
 }
 
