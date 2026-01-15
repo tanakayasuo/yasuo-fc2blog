@@ -8,7 +8,7 @@ body {
 
 /* ヘッダー全体を左右に分ける */
 header {
-    background-color: #333;
+    background-color: #079f88;
     color: white;
     padding: 15px 20px;
     display: flex;
@@ -120,7 +120,7 @@ header {
 
 /* フッター */
 footer {
-    background-color: #333;
+    background-color: #079f88;
     color: white;
     text-align: center;
     padding: 20px;
